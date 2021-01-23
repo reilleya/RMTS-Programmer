@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
+    (drawings 9)
     (tracks 155)
     (zones 0)
     (modules 12)
@@ -779,6 +779,9 @@
     )
   )
 
+  (gr_text "RMTS Programmer Rev 1\nAndrew Reilley, 2021" (at 135.89 101.346 90) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_line (start 131.445 117.094) (end 131.445 83.312) (layer Edge.Cuts) (width 0.1) (tstamp 60042B0E))
   (gr_line (start 133.604 119.253) (end 147.066 119.253) (layer Edge.Cuts) (width 0.1) (tstamp 60042B0D))
   (gr_line (start 149.225 83.312) (end 149.225 117.094) (layer Edge.Cuts) (width 0.1) (tstamp 60042AFE))
