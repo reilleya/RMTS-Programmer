@@ -86,9 +86,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "../Programmer Rev 1 Gerber/"))
   )
 
   (net 0 "")
@@ -1112,7 +1112,7 @@
   (segment (start 140.7795 109.4105) (end 140.589 109.601) (width 0.25) (layer B.Cu) (net 38))
   (segment (start 142.0495 109.4105) (end 140.7795 109.4105) (width 0.25) (layer B.Cu) (net 38))
 
-  (zone (net 22) (net_name GND) (layer B.Cu) (tstamp 601F90D8) (hatch edge 0.508)
+  (zone (net 22) (net_name GND) (layer B.Cu) (tstamp 6020B6D7) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
